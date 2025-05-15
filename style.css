@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #E50815;
+    overflow-x: hidden;
+}
+main{
+    background-color: #E50815;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.ast{
+display: flex;
+justify-content: space-around;
+}
+.ast img{
+    height: 200px;
+    width: auto;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
+.logo img{
+    height: 220px;
+    width: auto;
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+p{
+    color: white;
+    font-family: "Reem Kufi", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+@media(min-width: 1034px){
+    .para{
+        width: 30%;
+    }
+}
+@media(min-width: 600px){
+ #lop{
+        display: none;
+    }
+}
+@media(max-width: 1034px){
+    .main{
+        height: 100vh;
+        margin-top: 0px;
+    }
+    .logo img{
+        height: 200px;
+        width: auto;
+    }
+    .ast img{
+        height: 180px;
+        width: auto;
+        
+    }
+    .para{
+        width: 30%;
+    }
+}
+@media (max-width :1000px){
+    .main{
+height: 100vh;
+margin-top: 0px;
+    }
+    .logo img{
+        height: 160px;
+        width: auto;
+    }
+    .ast img{
+        height: 140px;
+        width: auto;
+ 
+    }
+}
+@media (max-width :705px){
+    .main{
+height: 100vh;
+margin-top: 0px;
+margin-bottom: 10px;
+    }
+    .logo img{
+        height: 130px;
+        width: auto;
+    }
+    .ast img{
+        height: 230px;
+        width: auto;
+        
+    }
+    .para{
+        width: 50%;
+    }
+}
+@media (max-width :613px){
+    .main{
+height: 100vh;
+margin-top: 0px;
+    }
+    .logo img{
+        height: 90px;
+        width: auto;
+    }
+    .ast img{
+        height: 180px;
+        width: auto;
+        
+    }
+}
+@media (max-width :450px){
+    .main{
+height: 100vh;
+margin-top: 0px;
+margin-bottom: 160px;
+    }
+    .logo img{
+        height: 70px;
+        width: auto;
+        margin-bottom: 50px;
+    }
+    .ast img{
+        height: 340px;
+        width: auto;
+        margin-bottom: 50px;
+        
+    }
+
+}
+#logoop{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+#logoop img{
+    height: 100px;
+    width: auto;
+    opacity: 0.3;
+}
+#banner{
+    background-image: url(Banner-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+  height: 500px; 
+}
+.para{
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.para #pone{
+    font-size: 13px;
+}
+.para #ptwo{
+    font-size: 13px;
+}
+
+
